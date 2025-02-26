@@ -29,6 +29,9 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+      <Stack>
+        asfafsfas
+      </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
   );

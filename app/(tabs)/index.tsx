@@ -9,9 +9,9 @@ export default function HomeScreen() {
     <ScrollView
       style={styles.mainContainer}
     >
-      <ThemedView>
-        <Text>Проектирование ПО</Text>
-        <Text>Спринт 1</Text>
+      <ThemedView style={styles.view}>
+        <Text style={styles.text}>Проектирование ПО</Text>
+        <Text style={styles.text}>Спринт 1</Text>
       </ThemedView>
     </ScrollView>
   );
@@ -22,6 +22,12 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     gap: 6,
     paddingTop: 48,
+  },
+  view: {
+    backgroundColor: "black",
+  },
+  text: {
+    color: "white"
   },
   stepContainer: {
     gap: 8,
